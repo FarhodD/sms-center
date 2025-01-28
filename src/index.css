@@ -1,0 +1,144 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #F1F1F1;
+  
+/* 
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; */
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  font-weight: 500;
+  color: #646cff;
+  text-decoration: inherit;
+}
+a:hover {
+  color: #535bf2;
+}
+
+body {
+  /* margin: 0; */
+  /* display: flex; */
+  /* place-items: center; */
+  /* min-width: 320px; */
+  min-height: 100vh;
+}
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+}
+
+li {
+  list-style: none;
+}
+
+
+.form {
+  background: #F7F8F9;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 56px;
+  border-radius: 16px;
+}
+
+.form-input {
+  width: 320px;
+  height: 40px;
+}
+
+.logo {
+  margin-bottom: 40px;
+}
+
+.btn-container {
+  width: 100%;
+}
+
+.btn-form {
+  background: #019681;
+  width: 100%;
+  height: 48px;
+}
+
+.btn-form:hover {
+  opacity: .8 !important;
+}
+
+:where(.css-dev-only-do-not-override-1htoz2s).ant-col-offset-8 {
+  margin-inline-start: 0
+}
+
+:where(.css-dev-only-do-not-override-1htoz2s).ant-col-16 {
+  max-width:100%
+}
+
+.login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+:where(.css-dev-only-do-not-override-1htoz2s).ant-menu-light, :where(.css-dev-only-do-not-override-1htoz2s).ant-menu-light>.ant-menu {
+ background-color: #161616; 
+}
+
+:where(.css-dev-only-do-not-override-1htoz2s).ant-menu-light .ant-menu-item, :where(.css-dev-only-do-not-override-1htoz2s).ant-menu-light>.ant-menu .ant-menu-item, :where(.css-dev-only-do-not-override-1htoz2s).ant-menu-light .ant-menu-submenu-title, :where(.css-dev-only-do-not-override-1htoz2s).ant-menu-light>.ant-menu .ant-menu-submenu-title {
+  color: #B7B9BD;
+}
+
+:where(.css-dev-only-do-not-override-1htoz2s).ant-menu-light .ant-menu-item-selected, :where(.css-dev-only-do-not-override-1htoz2s).ant-menu-light>.ant-menu .ant-menu-item-selected {
+  background: #1E282C;
+}
+
+thead {
+  background: #019681;
+}
+
+:where(.css-dev-only-do-not-override-1htoz2s).ant-layout-header {
+  line-height: 0;
+}
+
+.ant-row .ant-form-item-row css-dev-only-do-not-override-1htoz2s {
+  justify-content: space-between;
+  width: 100%;
+}
+
+.detail__container {
+  background: #F7F8F9;
+}
+
+.detail__header {
+  height: 40px;
+  padding: 0 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+:where(.css-dev-only-do-not-override-1htoz2s).ant-form-item .ant-form-item-label >label::after {
+  content: "";
+}
