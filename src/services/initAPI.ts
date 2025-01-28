@@ -2,7 +2,7 @@ import axios, { CreateAxiosDefaults } from "axios";
 import { AUTH_STORAGE } from "../store/authStore";
 
 const options: CreateAxiosDefaults = {
-  baseURL: process.env.BASE_URL,
+  baseURL: import.meta.env.VITE_BASE_URL,
   headers: {
   "Content-type": "application/json",
 },
